@@ -1,0 +1,128 @@
+2021-04-07 22:47:56 INFO  SelectQuery:267 - selected rows are returned
+2021-04-07 22:47:56 INFO  SelectQuery:311 - Execution time for select query is :16  milliseconds
+2021-04-07 23:31:49 INFO  CreateTable:148 - Create Table created for OnyxDbSite2
+2021-04-07 23:31:49 INFO  CreateTable:149 - Execution time for Create Query is :23  milliseconds
+2021-04-07 23:33:48 INFO  CreateTable:148 - Create Table created for OnyxDbSite2
+2021-04-07 23:33:48 INFO  CreateTable:149 - Execution time for Create Query is :28  milliseconds
+2021-04-07 23:33:56 INFO  ErDiagram:33 - DriverLicense_Datatype.txt
+2021-04-07 23:33:56 INFO  ErDiagram:33 - DriverLicense_Values.txt
+2021-04-07 23:33:56 INFO  ErDiagram:33 - OnyxDbSite2_LocalDictionary
+2021-04-07 23:33:56 INFO  ErDiagram:33 - Orders_Datatype.txt
+2021-04-07 23:33:56 INFO  ErDiagram:33 - Orders_Values.txt
+2021-04-07 23:33:56 INFO  ErDiagram:33 - Persons_Datatype.txt
+2021-04-07 23:33:56 INFO  ErDiagram:33 - Persons_Values.txt
+2021-04-07 23:33:56 INFO  ErDiagram:35 - No of entries in this directory 7
+2021-04-07 23:33:56 INFO  ErDiagram:44 - Building list of ER Nodes
+2021-04-07 23:33:56 INFO  ErDiagram:98 - ER Diagram: Displays the tables that are related.
+2021-04-07 23:33:56 INFO  ErDiagram:117 - ER Diagram created for OnyxDbSite2
+2021-04-07 23:33:56 INFO  ErDiagram:118 - Execution time for ER Diagram is :36  milliseconds
+2021-04-07 23:39:08 INFO  ConsoleRunner:25 - Welcome to Onyx Command Line Database
+2021-04-07 23:39:08 INFO  ConsoleRunner:27 - 1. To login 
+2021-04-07 23:39:08 INFO  ConsoleRunner:29 - Press any key. To exit the application 
+2021-04-07 23:39:08 INFO  ConsoleRunner:31 - Choose 1 or press any key 
+2021-04-07 23:39:33 INFO  ConsoleRunner:25 - Welcome to Onyx Command Line Database
+2021-04-07 23:39:33 INFO  ConsoleRunner:27 - 1. To login 
+2021-04-07 23:39:33 INFO  ConsoleRunner:29 - Press any key. To exit the application 
+2021-04-07 23:39:33 INFO  ConsoleRunner:31 - Choose 1 or press any key 
+2021-04-07 23:39:42 INFO  ConsoleRunner:35 - Login Successful 
+2021-04-07 23:39:44 INFO  ConsoleRunner:45 - Site selected: 1
+2021-04-07 23:39:44 INFO  ConsoleRunner:59 - Please enter the operation you would like to perform
+2021-04-07 23:39:44 INFO  ConsoleRunner:61 - 1. Enter a SQL Query
+2021-04-07 23:39:44 INFO  ConsoleRunner:63 - 2. Create a SQL Dump File
+2021-04-07 23:39:44 INFO  ConsoleRunner:65 - 3. Create an ER Diagram
+2021-04-07 23:39:44 INFO  ConsoleRunner:67 - quit. Quit the Database
+2021-04-07 23:39:44 INFO  ConsoleRunner:69 - *******************************************************
+2021-04-07 23:39:45 INFO  ConsoleRunner:89 - ER Diagram
+2021-04-07 23:39:45 INFO  ErDiagram:33 - DriverLicense_Datatype.txt
+2021-04-07 23:39:45 INFO  ErDiagram:33 - DriverLicense_Values.txt
+2021-04-07 23:39:45 INFO  ErDiagram:33 - Orders_Datatype.txt
+2021-04-07 23:39:45 INFO  ErDiagram:33 - Orders_Values.txt
+2021-04-07 23:39:45 INFO  ErDiagram:33 - Persons_Datatype.txt
+2021-04-07 23:39:45 INFO  ErDiagram:33 - Persons_Values.txt
+2021-04-07 23:39:45 INFO  ErDiagram:35 - No of entries in this directory 6
+2021-04-07 23:39:45 INFO  ErDiagram:44 - Building list of ER Nodes
+2021-04-07 23:39:45 INFO  ErDiagram:98 - ER Diagram: Displays the tables that are related.
+2021-04-07 23:39:45 INFO  ErDiagram:117 - ER Diagram created for OnyxDbSite1
+2021-04-07 23:39:45 INFO  ErDiagram:118 - Execution time for ER Diagram is :30  milliseconds
+2021-04-07 23:39:50 INFO  ConsoleRunner:45 - Site selected: 1
+2021-04-07 23:39:50 INFO  ConsoleRunner:59 - Please enter the operation you would like to perform
+2021-04-07 23:39:50 INFO  ConsoleRunner:61 - 1. Enter a SQL Query
+2021-04-07 23:39:50 INFO  ConsoleRunner:63 - 2. Create a SQL Dump File
+2021-04-07 23:39:50 INFO  ConsoleRunner:65 - 3. Create an ER Diagram
+2021-04-07 23:39:50 INFO  ConsoleRunner:67 - quit. Quit the Database
+2021-04-07 23:39:50 INFO  ConsoleRunner:69 - *******************************************************
+2021-04-07 23:39:54 INFO  ConsoleRunner:73 - CRUD Operations
+2021-04-07 23:40:08 INFO  ParseQuery:60 - Invalid Sql Query.
+2021-04-07 23:40:10 INFO  ParseQuery:60 - Invalid Sql Query.
+2021-04-07 23:40:13 INFO  ParseQuery:60 - Invalid Sql Query.
+2021-04-07 23:40:14 INFO  ParseQuery:60 - Invalid Sql Query.
+2021-04-07 23:40:15 INFO  ParseQuery:60 - Invalid Sql Query.
+2021-04-07 23:40:35 INFO  ConsoleRunner:25 - Welcome to Onyx Command Line Database
+2021-04-07 23:40:35 INFO  ConsoleRunner:27 - 1. To login 
+2021-04-07 23:40:35 INFO  ConsoleRunner:29 - Press any key. To exit the application 
+2021-04-07 23:40:35 INFO  ConsoleRunner:31 - Choose 1 or press any key 
+2021-04-07 23:40:44 INFO  ConsoleRunner:25 - Welcome to Onyx Command Line Database
+2021-04-07 23:40:44 INFO  ConsoleRunner:27 - 1. To login 
+2021-04-07 23:40:44 INFO  ConsoleRunner:29 - Press any key. To exit the application 
+2021-04-07 23:40:44 INFO  ConsoleRunner:31 - Choose 1 or press any key 
+2021-04-07 23:41:06 INFO  ConsoleRunner:25 - Welcome to Onyx Command Line Database
+2021-04-07 23:41:06 INFO  ConsoleRunner:27 - 1. To login 
+2021-04-07 23:41:06 INFO  ConsoleRunner:29 - Press any key. To exit the application 
+2021-04-07 23:41:06 INFO  ConsoleRunner:31 - Choose 1 or press any key 
+2021-04-08 00:55:24 INFO  ConsoleRunner:25 - Welcome to Onyx Command Line Database
+2021-04-08 00:55:24 INFO  ConsoleRunner:27 - 1. To login 
+2021-04-08 00:55:24 INFO  ConsoleRunner:29 - Press any key. To exit the application 
+2021-04-08 00:55:24 INFO  ConsoleRunner:31 - Choose 1 or press any key 
+2021-04-08 00:55:32 INFO  ConsoleRunner:35 - Login Successful 
+2021-04-08 00:55:33 INFO  ConsoleRunner:45 - Site selected: 1
+2021-04-08 00:55:33 INFO  ConsoleRunner:59 - Please enter the operation you would like to perform
+2021-04-08 00:55:33 INFO  ConsoleRunner:61 - 1. Enter a SQL Query
+2021-04-08 00:55:33 INFO  ConsoleRunner:63 - 2. Create a SQL Dump File
+2021-04-08 00:55:33 INFO  ConsoleRunner:65 - 3. Create an ER Diagram
+2021-04-08 00:55:33 INFO  ConsoleRunner:67 - quit. Quit the Database
+2021-04-08 00:55:33 INFO  ConsoleRunner:69 - *******************************************************
+2021-04-08 00:55:35 INFO  ConsoleRunner:73 - CRUD Operations
+2021-04-08 00:55:36 INFO  ParseQuery:37 - Regex matched for Create.
+2021-04-08 00:55:36 INFO  ErDiagram:20 - Create table
+2021-04-08 00:55:36 INFO  CreateTable:143 - Create Table created for OnyxDbSite1
+2021-04-08 00:55:36 INFO  CreateTable:144 - Execution time for Create Query is :24  milliseconds
+2021-04-08 00:55:40 INFO  ConsoleRunner:45 - Site selected: 1
+2021-04-08 00:55:40 INFO  ConsoleRunner:59 - Please enter the operation you would like to perform
+2021-04-08 00:55:40 INFO  ConsoleRunner:61 - 1. Enter a SQL Query
+2021-04-08 00:55:40 INFO  ConsoleRunner:63 - 2. Create a SQL Dump File
+2021-04-08 00:55:40 INFO  ConsoleRunner:65 - 3. Create an ER Diagram
+2021-04-08 00:55:40 INFO  ConsoleRunner:67 - quit. Quit the Database
+2021-04-08 00:55:40 INFO  ConsoleRunner:69 - *******************************************************
+2021-04-08 00:55:41 INFO  ConsoleRunner:73 - CRUD Operations
+2021-04-08 00:55:48 INFO  ParseQuery:37 - Regex matched for Create.
+2021-04-08 00:55:48 INFO  ErDiagram:20 - Create table
+2021-04-08 00:55:48 INFO  CreateTable:143 - Create Table created for OnyxDbSite1
+2021-04-08 00:55:48 INFO  CreateTable:144 - Execution time for Create Query is :6  milliseconds
+2021-04-08 00:55:52 INFO  ConsoleRunner:45 - Site selected: 1
+2021-04-08 00:55:52 INFO  ConsoleRunner:59 - Please enter the operation you would like to perform
+2021-04-08 00:55:52 INFO  ConsoleRunner:61 - 1. Enter a SQL Query
+2021-04-08 00:55:52 INFO  ConsoleRunner:63 - 2. Create a SQL Dump File
+2021-04-08 00:55:52 INFO  ConsoleRunner:65 - 3. Create an ER Diagram
+2021-04-08 00:55:52 INFO  ConsoleRunner:67 - quit. Quit the Database
+2021-04-08 00:55:52 INFO  ConsoleRunner:69 - *******************************************************
+2021-04-08 00:55:55 INFO  ConsoleRunner:89 - ER Diagram
+2021-04-08 00:55:55 INFO  ErDiagram:33 - DriverLicense_Datatype.txt
+2021-04-08 00:55:55 INFO  ErDiagram:33 - DriverLicense_Values.txt
+2021-04-08 00:55:55 INFO  ErDiagram:33 - OnyxDbSite1_LocalDictionary
+2021-04-08 00:55:55 INFO  ErDiagram:33 - Orders_Datatype.txt
+2021-04-08 00:55:55 INFO  ErDiagram:33 - Orders_Values.txt
+2021-04-08 00:55:55 INFO  ErDiagram:33 - Persons_Datatype.txt
+2021-04-08 00:55:55 INFO  ErDiagram:33 - Persons_Values.txt
+2021-04-08 00:55:55 INFO  ErDiagram:35 - No of entries in this directory 7
+2021-04-08 00:55:55 INFO  ErDiagram:44 - Building list of ER Nodes
+2021-04-08 00:55:55 INFO  ErDiagram:98 - ER Diagram: Displays the tables that are related.
+2021-04-08 00:55:55 INFO  ErDiagram:117 - ER Diagram created for OnyxDbSite1
+2021-04-08 00:55:55 INFO  ErDiagram:118 - Execution time for ER Diagram is :20  milliseconds
+2021-04-08 00:55:59 INFO  ConsoleRunner:45 - Site selected: 1
+2021-04-08 00:55:59 INFO  ConsoleRunner:59 - Please enter the operation you would like to perform
+2021-04-08 00:55:59 INFO  ConsoleRunner:61 - 1. Enter a SQL Query
+2021-04-08 00:55:59 INFO  ConsoleRunner:63 - 2. Create a SQL Dump File
+2021-04-08 00:55:59 INFO  ConsoleRunner:65 - 3. Create an ER Diagram
+2021-04-08 00:55:59 INFO  ConsoleRunner:67 - quit. Quit the Database
+2021-04-08 00:55:59 INFO  ConsoleRunner:69 - *******************************************************
+2021-04-08 00:56:01 INFO  ConsoleRunner:96 - Exiting the application
