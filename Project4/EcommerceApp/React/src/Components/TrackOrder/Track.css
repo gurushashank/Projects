@@ -1,0 +1,35 @@
+.track {
+  padding: 20px;
+  height: 40px;
+  padding-bottom: 20px;
+  box-shadow: 20px;
+}
+
+.border {
+  display: inline-flex;
+  font-size: medium;
+}
+
+.tImage{
+    display: inline;
+
+    
+}
+.text{
+    font-weight: bold;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 20px;
+  padding-bottom: 20px;
+  height: 250px;
+}
+
+.jumbo {
+  background-color: #dedede;
+  display: flexbox;
+}
