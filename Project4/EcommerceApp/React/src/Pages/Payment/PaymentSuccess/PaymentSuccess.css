@@ -1,0 +1,39 @@
+.paymentSuccess__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paymentSuccess__body {
+    padding-top: 1rem;
+    display: grid;
+    place-items: center;
+}
+
+.paymentSuccess_button {
+    width: 80%;
+    padding-top: 1rem;
+    display: inherit;
+    place-items: inherit;
+}
+
+.paymentSuccess_button button {
+    padding: 10px 10px 10px 10px;
+    background-color: #fcfcfc;
+    border: 1px solid #0003;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.paymentSuccess_button button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #aaa;
+}
+
+
+.paymentSuccess__footer {
+    padding-top: 20rem;
+}

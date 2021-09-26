@@ -1,0 +1,54 @@
+.payment__form__container {
+	display: inherit;
+}
+
+.form__fieldset {
+	padding: 10px 10px;
+	border-style: none;
+	width: 50%;
+    background-color: rgba(255, 255, 255, 0.664);
+	border: solid;
+	border-width: 1px;
+	border-color: #d0312d;
+	will-change: opacity, transform;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #829fff;
+	border-radius: 4px;
+}
+
+ .card__options {
+    font-weight: 500;
+    color: #fff;
+}
+
+ .StripeElement {
+	width: 100%;
+	padding: 11px 15px 11px 0px;
+}
+
+ .payment__button {
+	font-size: 16px;
+    width: 50%;
+	height: 40px;
+	margin-top: 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #d0312d;
+	border-radius: 4px;
+	color: #d0312d;
+	font-weight:600;
+	transition: all 100ms ease-in-out;
+	border: solid;
+	border-width: 1px;
+    cursor: pointer;
+}
+
+.payment__button :active {
+	background-color: #d0312d;
+	color: #fff;
+	transform: scale(0.99);
+}
+
+.payment__button :hover {
+	background-color: #d0312d;
+	color: #fff;
+	transform: scale(0.99);
+}

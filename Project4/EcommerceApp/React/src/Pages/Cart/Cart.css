@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #333;
+  --primary-color: #acacac;
+  --icon-color: #d0312d;
+}
+
+i {
+  width: 2rem;
+  height: 2rem;
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+  display: grid;
+  place-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+.main-cart h1 {
+  margin-left: 3%;
+  margin-top: 1%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: rgba(41, 41, 41, 1);
+  margin-bottom: 1rem;
+}
+
+.main-cart .total-items {
+  margin-left: 3%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: var(--main-color);
+  margin-bottom: 5rem;
+}
+
+.total-items-quantity {
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.main-cart .cart-items {
+  width: 70%;
+  margin-left: 0%;
+  height: auto;
+  background: linear-gradient(
+    103.49deg,
+    #ffffff -28.13%,
+    rgba(242, 247, 255, 0.5) 116.84%
+  );
+  box-shadow: rgba(0, 0, 0, 0.08) 0rem 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  display: grid;
+  place-items: center;
+}
+
+.cart-items hr {
+  margin: 2rem auto;
+  overflow-y: scroll;
+}
+
+.cart-items-box {
+  width: 90%;
+  height: auto;
+}
+
+.item-details {
+  width: 95%;
+  height: 6rem;
+  /* background-color: lavender; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
+}
+
+.item-details .product-img img {
+  height: 7rem;
+  width: 7rem;
+  filter: drop-shadow(0rem 0.4rem 1rem #f1f7ff);
+  border-radius: 1rem;
+}
+
+.item-details .title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.item-details .title h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+
+.item-details .title p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: left;
+  color: var(--primary-color);
+}
+
+.quantity-update {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.quantity-update button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.quantity-update input {
+  width: 4rem;
+  height: 2rem;
+  border: 0.141rem solid var(--primary-color);
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  background-color: transparent;
+}
+
+.quantity-update input:focus {
+  outline: none;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.price h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+
+.remove-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.remove-item button {
+  border: none;
+  background-color: transparent;
+}
+
+.cart-total {
+  width: 95%;
+  margin-top: 4rem;
+  text-align: right;
+  flex: 0.3;
+}
+
+.cart-total h3 {
+  font-style: 200;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  text-transform: capitalize;
+  color: #606166;
+}
+
+.cart-total h3 span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+  color: #000000;
+  margin-right: 6rem;
+}
+
+.cart-total button {
+  border: none;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: #d0312d;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-right: 7rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.fa-trash-alt {
+  color: #ed4848;
+}
+
+.fa-plus:hover {
+  color: #42c157;
+}
+
+.fa-minus:hover {
+  color: #ffb800;
+}
+
+.fa-plus,
+.fa-minus {
+  color: var(--icon-color);
+}
+
+.cart-total button:hover {
+  background-color: #0077dc;
+}
+
+.cart-total .clear-cart {
+  margin-left: 3rem;
+  background-color: rgb(209, 61, 61);
+}
+
+.cart-total .clear-cart:hover {
+  background-color: rgb(197, 5, 5);
+}
