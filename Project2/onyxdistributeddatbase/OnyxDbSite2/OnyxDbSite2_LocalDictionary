@@ -1,0 +1,24 @@
+Site_Name: OnyxDbSite2
+	Table_Name: Persons
+		Number_of_Records: null
+		Column_Name: PersonID
+			Data_Type: int
+		Column_Name: Address
+			Data_Type: varchar(255)
+		Column_Name: FirstName
+			Data_Type: varchar(255)
+		Column_Name: LastName
+			Data_Type: varchar(255)
+		Column_Name: City
+			Data_Type: varchar(255))
+		 
+	Table_Name: Orders
+		Number_of_Records: null
+		Column_Name: C_ID
+			Data_Type: int
+		Column_Name: ORDER_NO
+			Data_Type: int
+		Column_Name: O_ID
+			Data_Type: int
+		PRIMARY KEY (O_ID)
+		FOREIGN KEY (C_ID) REFERENCES Customers(C_ID))

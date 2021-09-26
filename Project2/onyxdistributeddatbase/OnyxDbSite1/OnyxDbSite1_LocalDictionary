@@ -1,0 +1,22 @@
+Site_Name: OnyxDbSite1
+	Table_Name: Persons
+		Number_of_Records: null
+		Column_Name: PersonID
+			Data_Type: int
+		Column_Name: Address
+			Data_Type: varchar(255)
+		Column_Name: FirstName
+			Data_Type: varchar(255)
+		Column_Name: LastName
+			Data_Type: varchar(255)
+		Column_Name: City
+			Data_Type: varchar(255))
+		 
+	Table_Name: DriverLicense
+		Number_of_Records: null
+		Column_Name: DlID
+			Data_Type: int
+		Column_Name: PersonID
+			Data_Type: int
+		PRIMARY KEY (DlID)
+		Foreign Key (PersonID) REFERENCES Persons(PersonId))

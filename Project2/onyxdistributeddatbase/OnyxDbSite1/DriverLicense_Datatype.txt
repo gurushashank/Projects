@@ -1,0 +1,1 @@
+DlID,int ;PersonID,int ;PRIMARY KEY (DlID);Foreign Key (PersonID) REFERENCES Persons(PersonId));;
